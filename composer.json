@@ -1,0 +1,23 @@
+{
+    "name": "sintexph/acms-lib",
+    "description": "A library that will sync accounts from acms",
+    "authors": [{
+        "name": "Kevin Loquencio",
+        "email": "kevin.loquencio@gmail.com"
+    }],
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "AccountManagement\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AccountManagement\\AccountManagementServiceProvider"
+            ]
+        }
+    }
+}
