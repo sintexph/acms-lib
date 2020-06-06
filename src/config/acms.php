@@ -24,6 +24,9 @@ return [
         'username'=>'username', 
         'password'=>'password', 
         'active'=>null,
+        'updated_at'=>'updated_at',
+        'created_at'=>'created_at',
+        'deleted_at'=>null,
     ],
     'extra_mapping'=>[
         'sample'=>null,
